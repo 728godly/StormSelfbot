@@ -33,7 +33,7 @@ client.remove_command("help")
 
 @client.event
 async def on_ready():
-    os.system(f"title Storm Selfbot")
+    os.system(f"clear")
     print(Fore.CYAN + ".▄▄ · ▄▄▄▄▄      ▄▄▄  • ▌ ▄ ·. ")
     print(Fore.CYAN + "▐█ ▀. •██  ▪     ▀▄ █··██ ▐███▪")
     print(Fore.BLUE + "▄▀▀▀█▄ ▐█.▪ ▄█▀▄ ▐▀▀▄ ▐█ ▌▐▌▐█·")
