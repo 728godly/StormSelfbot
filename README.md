@@ -1,19 +1,13 @@
-# StormSelfbot
-Discord Selfbot
+This Selfbot is now for Linux only!!!
 
+1. cd StormSelfbot
 
+2. Install all requirements listed in "requirements.txt"
 
-Instructions:
+3. Do "nano config.json"
 
+4. Put your token in the config
 
-1. Open CMD and do: pip install -r requirements.txt
+5. Do chmod +x start.sh
 
-2. Close CMD
-
-3. Put your Discord token in "config.json"
-
-4. Put your prefix in "config.json"
-
-5. Run "start.bat"
-
-(For any issues DM me on Instagram @shady.ily or @storm.lulz)
+6. ./start.sh
