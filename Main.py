@@ -46,6 +46,7 @@ async def on_ready():
     print(f"  Prefix: {prefix}                    ")
     print(f"  ID: {client.user.id}       ")
     print(f"  Discord Version: {discord.__version__}       ")
+    print(f"  {Fore.BLUE}Storm Version: 0.2.4
     print("╚══════════════════════════════╝")
     print(Fore.GREEN + "╔══════════════════════════════╗")
     print("║           Console            ║")
