@@ -1,10 +1,8 @@
 discord
-sys
 requests
 string
 random
 colorama
-os
 collections
 datetime
 asyncio
