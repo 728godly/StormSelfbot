@@ -106,7 +106,7 @@ async def ip(ctx, ip: str=None):
                         embed.add_field(name=f'Postal', value=f'{j["postal"]}', inline=True)
                         embed.add_field(name=f'Timezone', value=f'{j["timezone"]}', inline=True)
                         embed.add_field(name=f'Organization', value=f'{j["org"]}', inline=True)
-                        embed.set_footer(text=" made by 0x72")
+                        embed.set_footer(text=" made by Shady")
                         await ctx.send(embed=embed)
                     except discord.HTTPException:
                         await ctx.send(f'**{ip} Info**\n\nCity: {j["city"]}\nRegion: {j["region"]}\nCountry: {j["country"]}\nCoordinates: {j["loc"]}\nPostal: {j["postal"]}\nTimezone: {j["timezone"]}\nOrganization: {j["org"]}')
@@ -169,7 +169,7 @@ async def info(ctx):
     print(f"|  [COMMAND >>>> Info]  [USER >>>> {client.user.name}]  |")
     await ctx.message.delete()
     em = discord.Embed(title="Storm Info")
-    em.add_field(name="Storm Version:", value="0.1.0", inline=True)
+    em.add_field(name="Storm Version:", value="0.2.4", inline=True)
     em.add_field(name="Discord Version:", value=f"{discord.__version__}", inline=True)
     em.add_field(name="Logged in as:", value=f"{client.user.name} ({client.user.id})", inline=True)
     em.set_footer(text=f"Your prefix is {prefix}", icon_url = "https://cdn.discordapp.com/attachments/902428786627330079/902473971570704414/11-117755_remove-muzzle-flash-cod-s-gaming-logo-png.png")
