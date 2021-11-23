@@ -8,6 +8,6 @@ This Selfbot is now for Linux only!!!
 
 4. Put your token in the config
 
-5. Do chmod +x start.sh
+5. Do chmod +x start
 
-6. ./start.sh
+6. ./start
